@@ -1,0 +1,113 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fa; 
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    background-color: #2980b9; 
+    padding: 30px 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: white;
+}
+
+.header h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.contact-details p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.main-content {
+    display: flex;
+    gap: 30px;
+}
+
+.left-side,
+.right-side {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.left-side {
+    background-color: #ecf5fc; 
+    width: 30%;
+}
+
+.right-side {
+    background-color: #fff;
+    width: 70%;
+}
+
+.section {
+    margin-bottom: 25px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+}
+
+.section h2 {
+    font-size: 20px;
+    color: #2980b9;
+    margin-bottom: 12px;
+    border-bottom: 2px solid #2980b9;
+    padding-bottom: 8px;
+}
+
+.editable {
+    padding: 12px;
+    background-color: #f0f3f7;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #555;
+    min-height: 40px;
+    border: 1px solid #dcdfe6;
+    transition: all 0.3s ease;
+    margin-bottom: 15px;
+}
+
+.editable:empty {
+    color: #ccc;
+}
+
+.editable:focus {
+    background-color: #fff;
+    border-color: #2980b9;
+    outline: none;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #2980b9;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #3498db;
+}
